@@ -88,7 +88,7 @@ int explodeLog(const std::string &log, std::vector<nodeInfo> &nodes);
 int tcping(nodeInfo &node);
 void getTestFile(nodeInfo &node, const std::string &proxy, const std::vector<downloadLink> &downloadFiles, const std::vector<linkMatchRule> &matchRules, const std::string &defaultTestFile);
 void ssrspeed_webserver_routine(const std::string &listen_address, int listen_port);
-std::string get_nat_type_thru_socks5(const std::string &server, uint16_t port, const std::string &username = "", const std::string &password = "", const std::string &stun_server = "stun.syncthing.net", uint16_t stun_port = 3478);
+std::string get_nat_type_thru_socks5(const std::string &server, uint16_t port, const std::string &username = "", const std::string &password = "", const std::string &stun_server = "stun4.l.google.com", uint16_t stun_port = 19305);
 
 //original codes
 
